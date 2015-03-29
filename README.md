@@ -19,8 +19,40 @@ brew install figlet
 ```
 
 
-### ntl;wr! (Not that long; Will Read!)
-#### Documentation extracted from the source code:
+### ntl;wr! ~~not that long; will read!~~
+
+#### Derived from: [http://www.vim.org/scripts/script.php?script_id=3359](http://www.vim.org/scripts/script.php?script_id=3359)
+#### Original README:
+
+* Use the g@ operator or the :Figlet command to filter your text through figlet, in-place!
+* :Figlet has a completion function that will complete on installed font names, too.
+* Plus, there is a Windows/MS-DOS version of Figlet, so everybody can get in on the fun!
+
+Q: Can't I do this same thing with the :! command?
+A: Basically, sure
+
+Q: What does this plugin give me that Vim's built-in filtering doesn't?
+A1. Convenience - through variables it can remember your defaults
+A2. Completion - so you don't have to memorize all of the commands or font names
+A3. Text-objects - use the g@ operator with text-objects for blazing fast transformations that will knock shoulder-surfer's socks off
+A4. A font sample buffer to help you pick out the perfect font for the occasion
+
+Q: Okay, I'm sold.  But what is this Figlet you speak of?
+A: This:
+  __ _       _      _   
+ / _(_) __ _| | ___| |_ 
+| |_| |/ _` | |/ _ \ __|
+|  _| | (_| | |  __/ |_ 
+|_| |_|\__, |_|\___|\__|
+       |___/            
+
+Er, that wasn't quite as impressive as I was hoping.  Check out [figlet.org](http://www.figlet.org/) to get with the times.
+
+####TODO:
+Fix doc/figlet.txt and doc/tags
+
+
+### Documentation extracted from the source code:
 ```vimscript
 " ==========================================================================
 " File:         Figlet.vim (global plugin)
@@ -248,33 +280,3 @@ brew install figlet
 "eeeee eeeee eeeee eeeee eeeee eeeee eeeee eeeee eeeee eeeee eeeee eeeee 
 ```
 
-
-#### Derived from: [http://www.vim.org/scripts/script.php?script_id=3359](http://www.vim.org/scripts/script.php?script_id=3359)
-#### Original README:
-
-* Use the g@ operator or the :Figlet command to filter your text through figlet, in-place!
-* :Figlet has a completion function that will complete on installed font names, too.
-* Plus, there is a Windows/MS-DOS version of Figlet, so everybody can get in on the fun!
-
-1) Q: Can't I do this same thing with the :! command?
-A: Basically, sure
-
-1) Q: What does this plugin give me that Vim's built-in filtering doesn't?
-A1. Convenience - through variables it can remember your defaults
-A2. Completion - so you don't have to memorize all of the commands or font names
-A3. Text-objects - use the g@ operator with text-objects for blazing fast transformations that will knock shoulder-surfer's socks off
-A4. A font sample buffer to help you pick out the perfect font for the occasion
-
-1) Q: Okay, I'm sold.  But what is this Figlet you speak of?
-A: This:
-  __ _       _      _   
- / _(_) __ _| | ___| |_ 
-| |_| |/ _` | |/ _ \ __|
-|  _| | (_| | |  __/ |_ 
-|_| |_|\__, |_|\___|\__|
-       |___/            
-
-Er, that wasn't quite as impressive as I was hoping.  Check out [figlet.org](http://www.figlet.org/) to get with the times.
-
-####TODO:
-Fix doc/figlet.txt and doc/tags
