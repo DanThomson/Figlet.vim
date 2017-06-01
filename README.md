@@ -1,18 +1,18 @@
-#Figlet
+# Figlet
 
-###tl;dr:
+### tl;dr:
 * Same license as Vim
 * Use the g@ operator or the :Figlet command to filter your text through figlet, in-place!
 * :Figlet has a completion function that will complete on installed font names, too.
 * Easy, Right? But first you have to have a figlet command line command installed
 
 
-####Debian like distributions:
+#### Debian like distributions:
 ```shell
 apt-get install figlet
 ```
 
-####Apple Mac OS X:
+#### Apple Mac OS X:
 * Homebrew:
 ```shell
 brew install figlet
@@ -39,16 +39,18 @@ A4. A font sample buffer to help you pick out the perfect font for the occasion
 
 Q: Okay, I'm sold.  But what is this Figlet you speak of?
 A: This:
+```shell
   __ _       _      _   
  / _(_) __ _| | ___| |_ 
 | |_| |/ _` | |/ _ \ __|
 |  _| | (_| | |  __/ |_ 
 |_| |_|\__, |_|\___|\__|
        |___/            
+```
 
 Er, that wasn't quite as impressive as I was hoping.  Check out [figlet.org](http://www.figlet.org/) to get with the times.
 
-####TODO:
+#### TODO:
 Fix doc/figlet.txt and doc/tags
 
 

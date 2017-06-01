@@ -5,6 +5,12 @@
 
 This help is a WIP, and also my first time working with the vim help syntax
 
+Checkout:
+[fadein/vim-FIGlet](https://github.com/fadein/vim-FIGlet/commits/master)
+it looks to be more up to date than the vim-scripts repo.
+
+Also see this [commit](https://github.com/vim-scripts/Figlet.vim/commit/07765f01e70be8e45d044850dffaa37e95aeb804)
+
 ################################################################################
 ################################################################################
                ____                          __ _       _      _
