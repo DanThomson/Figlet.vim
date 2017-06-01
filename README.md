@@ -28,17 +28,17 @@ brew install figlet
 * :Figlet has a completion function that will complete on installed font names, too.
 * Plus, there is a Windows/MS-DOS version of Figlet, so everybody can get in on the fun!
 
-Q: Can't I do this same thing with the :! command?
-A: Basically, sure
+- Q: Can't I do this same thing with the :! command?
+- A: Basically, sure
 
-Q: What does this plugin give me that Vim's built-in filtering doesn't?
-A1. Convenience - through variables it can remember your defaults
-A2. Completion - so you don't have to memorize all of the commands or font names
-A3. Text-objects - use the g@ operator with text-objects for blazing fast transformations that will knock shoulder-surfer's socks off
-A4. A font sample buffer to help you pick out the perfect font for the occasion
+- Q: What does this plugin give me that Vim's built-in filtering doesn't?
+- A1. Convenience - through variables it can remember your defaults
+- A2. Completion - so you don't have to memorize all of the commands or font names
+- A3. Text-objects - use the g@ operator with text-objects for blazing fast transformations that will knock shoulder-surfer's socks off
+- A4. A font sample buffer to help you pick out the perfect font for the occasion
 
-Q: Okay, I'm sold.  But what is this Figlet you speak of?
-A: This:
+- Q: Okay, I'm sold.  But what is this Figlet you speak of?
+- A: This:
 ```shell
   __ _       _      _   
  / _(_) __ _| | ___| |_ 
