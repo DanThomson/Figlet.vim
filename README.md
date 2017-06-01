@@ -28,6 +28,7 @@ brew install figlet
 * :Figlet has a completion function that will complete on installed font names, too.
 * Plus, there is a Windows/MS-DOS version of Figlet, so everybody can get in on the fun!
 
+#### FAQ:
 - Q: Can't I do this same thing with the :! command?
 - A: Basically, sure
 
